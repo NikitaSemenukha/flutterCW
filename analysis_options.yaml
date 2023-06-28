@@ -1,0 +1,9 @@
+include: package:pedantic/analysis_options.yaml
+
+linter:
+  rules:
+    omit_local_variable_types: false
+    constant_identifier_names: true
+    use_key_in_widget_constructors: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
